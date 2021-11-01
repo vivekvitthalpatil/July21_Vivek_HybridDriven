@@ -1,9 +1,9 @@
 package com.Technocredits.orghrm.testscripts;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import com.Technocredits.orghrm.base.TestBase;
 import com.Technocredits.orghrm.pages.AddEmployeePage;
@@ -11,7 +11,7 @@ import com.Technocredits.orghrm.pages.MenuPage;
 
 public class PIM_AddEmployeeTest extends TestBase {
 
-	@BeforeTest
+	@BeforeMethod
 	public void setup() {
 		super.setup();
 	}
@@ -34,6 +34,7 @@ public class PIM_AddEmployeeTest extends TestBase {
 		Assert.assertTrue(addemployee.successfullySaved());
 	}
 
+	@AfterMethod
 	public void teardown() {
 		super.teardown();
 	}
