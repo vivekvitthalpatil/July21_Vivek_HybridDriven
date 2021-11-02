@@ -1,6 +1,6 @@
-package com.Technocredits.orghrm.base;
+package com.technocredits.orghrm.base;
 
-import com.Technocredits.orghrm.pages.LoginPage;
+import com.technocredits.orghrm.pages.LoginPage;
 
 public class TestBase {
 
@@ -12,7 +12,7 @@ public class TestBase {
 		loginpage.clickOnLoginButton();
 	}
 	
-		public void teardown() {
-			PredefinedActions.closeBrowser();
-		}
+	public void teardown() {
+		PredefinedActions.closeBrowser();
+	}
 }

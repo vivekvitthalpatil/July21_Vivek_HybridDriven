@@ -1,4 +1,4 @@
-package com.Technocredits.orghrm.base;
+package com.technocredits.orghrm.base;
 
 import java.util.concurrent.TimeUnit;
 

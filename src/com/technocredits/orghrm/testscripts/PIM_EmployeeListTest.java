@@ -1,13 +1,13 @@
-package com.Technocredits.orghrm.testscripts;
+package com.technocredits.orghrm.testscripts;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.Technocredits.orghrm.base.TestBase;
-import com.Technocredits.orghrm.pages.EmployeeListPage;
-import com.Technocredits.orghrm.pages.MenuPage;
+import com.technocredits.orghrm.base.TestBase;
+import com.technocredits.orghrm.pages.EmployeeListPage;
+import com.technocredits.orghrm.pages.MenuPage;
 
 public class PIM_EmployeeListTest extends TestBase {
 

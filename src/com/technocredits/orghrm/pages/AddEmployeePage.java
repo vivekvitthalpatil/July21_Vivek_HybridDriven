@@ -1,4 +1,4 @@
-package com.Technocredits.orghrm.pages;
+package com.technocredits.orghrm.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.Technocredits.orghrm.base.PredefinedActions;
+import com.technocredits.orghrm.base.PredefinedActions;
 
 public class AddEmployeePage extends PredefinedActions {
 

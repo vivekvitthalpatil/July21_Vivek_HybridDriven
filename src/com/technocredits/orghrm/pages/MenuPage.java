@@ -1,8 +1,8 @@
-package com.Technocredits.orghrm.pages;
+package com.technocredits.orghrm.pages;
 
 import org.openqa.selenium.By;
 
-import com.Technocredits.orghrm.base.PredefinedActions;
+import com.technocredits.orghrm.base.PredefinedActions;
 
 public class MenuPage extends PredefinedActions {
 

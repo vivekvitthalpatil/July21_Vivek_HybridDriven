@@ -1,6 +1,6 @@
-package com.Technocredits.orghrm.pages;
+package com.technocredits.orghrm.pages;
 
-import com.Technocredits.orghrm.base.PredefinedActions;
+import com.technocredits.orghrm.base.PredefinedActions;
 
 public class DashboardPage extends PredefinedActions{
 
